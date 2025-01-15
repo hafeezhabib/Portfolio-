@@ -1,0 +1,166 @@
+
+/* 3 packages */
+/* Features Logo Packages  Start*/
+#packages {
+  padding: 2rem 0rem;
+}
+
+#packages .pakages-design-wrapper h2 {
+  text-transform: initial;
+  font-size: 40px;
+
+}
+
+#packages .pakages-design-wrapper p {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 18px;
+  line-height: normal;
+}
+
+#portfolio .card {
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 0px 0px;
+  transition: .3s ease;
+  min-height: 400px;
+}
+
+#portfolio .card:hover {
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px -2px rgb(0 0 0 / 40%);
+}
+
+#portfolio .card-button a {
+  text-transform: uppercase;
+}
+
+#portfolio .card:hover .label {
+  background-color: #a300bb;
+}
+
+#portfolio .card:hover #portfolio .card-footer-bottom a {
+  color: black;
+}
+
+#portfolio .card:hover #portfolio .card-footer-bottom p {
+  color: black;
+}
+
+#portfolio .card #portfolio .card-title {
+  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+}
+
+#portfolio .card #portfolio .card-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #662bff;
+}
+
+/* #portfolio .card-body{
+padding: 2rem;
+} */
+.label {
+  width: 7rem;
+  height: 4rem;
+  background-color: black;
+  font-size: 16px;
+  padding: 8px 0px 0px 13px;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 15% 100%, 0% 50%, 15% 0%);
+  justify-content: center;
+}
+
+.label h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2px;
+  text-transform: uppercase;
+}
+
+.label h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: line-through;
+}
+
+#portfolio .card_body {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+#portfolio .card .seperator {
+  background: #dfdfdf;
+  width: 90%;
+  height: 1px;
+  position: relative;
+  left: 5%;
+}
+
+#portfolio .card .price h2 {
+  color: red;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+#portfolio .card-body-content {
+  overflow-y: scroll;
+  max-height: 310px;
+  height: 310px;
+  padding: 10px 10px;
+  border-right: 1px solid #dfdfdf;
+  background-color: #f3f3f3;
+}
+
+#portfolio .card-body-content ul {
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio .card-body-content ul li {
+  font-size: 14px;
+  list-style-type: none;
+  line-height: 1.8;
+}
+
+#portfolio .card-body-content ul li i.fa {
+  color: red;
+  padding-right: 7px;
+}
+
+#portfolio .card-body-content h3 {
+  padding: 10px 0px;
+}
+
+#portfolio .card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  flex-wrap: nowrap;
+}
+
+.btn-tab {
+  border: 1px solid #a300bb !important;
+  text-transform: uppercase;
+}
+
+.btn-tab:hover {
+  background-color: #fc560a !important;
+  border: 1px solid #fc560a !important;
+}
+
